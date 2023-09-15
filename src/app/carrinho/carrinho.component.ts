@@ -22,9 +22,10 @@ export class CarrinhoComponent implements OnInit {
     calculaTotal() { 
       this.total = this.itensCarrinho.reduce((prev,curr) => (prev +curr.preco * curr.quantidade),0)
     }
-    removerProdutoCarrinho(produtoId: number) { 
-      this.itensCarrinho = this.itensCarrinho.filter(item => item.id !== produtoId)
-      this.carrinhoService.removerProdutoCarrinho(produtoId);
+    removerProdutoCarrinho(produtoId: number){ 
+      const indice=this.itensCarrinho.findIndex(indice => indice.id === produtoId)      
+      this.itensCarrinho.splice(indice,1)
+      this.carrinhoService.removerProdutoCarrinho(indice);
       this.calculaTotal();
     }
     comprar(){       

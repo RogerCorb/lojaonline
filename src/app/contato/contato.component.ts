@@ -10,7 +10,7 @@ export class ContatoComponent implements OnInit{
   formContato = this.fb.group({
   nome: ["",[
     Validators.minLength(4),
-    Validators.required
+    Validators.requiredTrue
   ]],
   assunto: ["",[
     Validators.minLength(10),
@@ -36,8 +36,13 @@ export class ContatoComponent implements OnInit{
  ngOnInit(): void { 
  }
 
- enviarFormulario() { 
-  alert("Dados enviados com sucesso !")
-  this.formContato.reset()
+ enviarFormulario() {    
+  if (this.formContato.controls['nome'] === null) {
+    alert("Campos Nome,Assunto,Email são obrigatorios formulario não enviado");
+    return 
+  } else { 
+    alert("Dados enviados com sucesso !");
+    this.formContato.reset()
+  }   
  }
 }
