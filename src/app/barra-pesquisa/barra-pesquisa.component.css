@@ -1,0 +1,27 @@
+
+
+.search-form{
+    height: 15px;
+    display: flex;       
+}
+
+.search-form input{
+    box-sizing: border-box;  
+    height: 45px;
+    padding: 26px;
+    flex:1;
+    background-color: #d3d3d3;/*var(--light-gray);*/
+    color: #808080;/*var(--gray);*/
+    border: none;
+    transition: all -3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form button{
+    width: 56px;
+    height: 52px;
+    background-color: rgb(16, 16, 225);/*var(--blue); */
+    border:none;
+    color: #fff;
+    font-size: 20px;
+}
