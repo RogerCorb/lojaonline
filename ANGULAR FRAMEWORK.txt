@@ -1,0 +1,22 @@
+O QUE É O ANGULAR 
+
+1 - É uma plataforma de desenvolvimento voltada para front-end de aplicações web
+
+2-  estão inclusos framework baseado em componentes.
+
+3-  indicado para projetos de pequeno medio e grande porte 
+
+4- indicado para desenvolvedores front-end ou fullStack
+
+INSTALANDO O ANGULAR 
+
+1- precisamos instalar o editor  VS-CODE   
+2- instalar o NODE.js 
+3- instalar o NPM
+4- instalar o ANGULAR de maneira GLOBAL,
+em CMD PROMPT digitar o comando que vai instalar a versão 14
+do ANGULAR  npm i -g @angular/cli@14
+
+5- no VS-CODE instalar a extensão ANGULAR LANGUAGE SERVICE
+
+Finalizado estes passos o ambiente de desenvolvimento ANGULAR ESTA PRONTO !
