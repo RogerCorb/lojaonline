@@ -28,6 +28,11 @@ div {
     font-size:60px;
 }
 
+.main-header__menu {
+    margin-bottom: 0.7rem;
+}
+    
+
 .main-header__menu ul {
     display: flex;
     justify-content: flex-end;
@@ -43,7 +48,7 @@ div {
 }
 
 .main-header__menu a:hover {
-    background-color: var(--blue);
+    background-color: blue;/*var(--blue);*/
     color: #fff;
 }
 
@@ -56,7 +61,7 @@ div {
 
 .badge-carrinho {
     background-color: #00008b;/*var(--dark-blue);*/
-    padding: 5px 10px;    
+    padding: 2px 7px;    
     border-radius: 4px;
     color: white;
 }
