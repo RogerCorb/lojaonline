@@ -1,27 +1,40 @@
 # LojaOnline
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
-## Development server
+Este projeto foi desenvolvido  desenvolvido utilizando HTML5,CSS3,TYPESCRIPT E ANGULAR lado Front-end, é uma loja on line de componentes tech
+exercício proposto no curso Dev FullStack do prgrama de formação ofertado pela empresa Capgemini  afim de praticarmos os conhecimentos que aprendemos na primeira etapa do curso DEV FULLSTACK.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Foi gratificante participar da construção deste programa pois aprendi bastante sobre front-end na prática utilizando ANGULAR CLI versão 14 
+tenho certeza que com oss conhecimentos que tenho de backend - Javascript - Node agora aliados ao Angular estou me tornando um profissional cada vez mais completo a cada dia.
 
-## Code scaffolding
+## Hospedagem / Deploy 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este projeto esta publicado aqui em Githubpages, e voce pode rodar o mesmo em seu desktop ou celular através do link 
+https://rogercorb.github.io/lojaonline/
 
-## Build
+## Relatar um problema 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Caso haja qualquer problema de execução da página entre em contato comigo através do linkedin
+www.linkedin.com/in/rogerio-corbo
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Tecnologias utilizadas 
 
-## Running end-to-end tests
+  ![Typescript](https://img.shields.io/badge/Typescript-323330?style=for-the-badge&logo=typescript&logoColor=F7DF1E)  
+  ![Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+  ![VsCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## 💻 Telas do programa
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<div>
+  <img src="" width=350 alt="Pagina home" title="" > 
+</div>
+
+
+
+## ✒️ Autor
+
+Rogério Corbo
+
