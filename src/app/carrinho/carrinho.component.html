@@ -8,7 +8,7 @@
             <p>Preço: {{ itemCarrinho.preco | currency: "BRL"}} </p>            
             <label >
                 Quantidade:
-                <input type="number" [(ngModel)]="itemCarrinho.quantidade" min="1" (change)="calculaTotal()">
+                <input type="number" [(ngModel)]="itemCarrinho.quantidade" min="1" max="{{itemCarrinho.quantidadeEstoque}}" (change)="calculaTotal()">
             </label>
             <button class="remove-button" (click)="removerProdutoCarrinho(itemCarrinho.id)"><i class="fa-solid fa-xmark"></i></button>
         </li>
