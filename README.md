@@ -1,11 +1,9 @@
 # LojaOnline
 
 
-Este projeto foi desenvolvido  desenvolvido utilizando HTML5,CSS3,TYPESCRIPT E ANGULAR lado Front-end, é uma loja on line de componentes tech
-exercício proposto no curso Dev FullStack do prgrama de formação ofertado pela empresa Capgemini  afim de praticarmos os conhecimentos que aprendemos na primeira etapa do curso DEV FULLSTACK.
+Este projeto foi desenvolvido  utilizando HTML5,CSS3,TYPESCRIPT E ANGULAR lado Front-end, é uma loja on line de componentes tech exercício proposto no curso Dev FullStack do programa de formação ofertado pela empresa Capgemini  afim de praticarmos os conhecimentos que aprendemos do curso DEV FULLSTACK.
 
-Foi gratificante participar da construção deste programa pois aprendi bastante sobre front-end na prática utilizando ANGULAR CLI versão 14 
-tenho certeza que com oss conhecimentos que tenho de backend - Javascript - Node agora aliados ao Angular estou me tornando um profissional cada vez mais completo a cada dia.
+Foi gratificante participar da construção deste programa pois aprendi bastante sobre front-end na prática utilizando ANGULAR CLI versão 14. Tenho certeza que com oss conhecimentos que tenho de backend - Javascript - Node agora aliados ao Angular estou me tornando um profissional cada vez mais completo a cada dia.
 
 ## Hospedagem / Deploy 
 
